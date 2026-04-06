@@ -43,11 +43,10 @@ Online reservation systems improve efficiency, reduce manual effort, and enhance
 ## 📊 System Workflow
 
 1. User visits website  
-2. Checks table availability  
-3. Selects preferred time slot  
-4. Enters booking details  
-5. Reservation stored in database  
-6. Confirmation displayed  
+2. Selects preferred time slot  
+3. Enters booking details  
+4. Reservation stored in database  
+5. Confirmation displayed  
 
 ---
 
