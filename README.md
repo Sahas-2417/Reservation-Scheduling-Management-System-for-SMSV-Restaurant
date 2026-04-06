@@ -101,6 +101,13 @@ SMSV-Restaurant/
 
 ### Booking Received Page (BRP)
 ![BRP](BRP.png)
+
+### Booking Queue (BQ)
+![BQ](BQ.png)
+
+### Table Allocation Results ()
+![BRP](BRP.png)
+
 ---
 
 ## 📄 Pages
