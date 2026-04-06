@@ -97,7 +97,7 @@ SMSV-Restaurant/
 
 ## 📷 Screenshots
 
-> Add your project screenshots here (Home Page, Booking Page, Admin Panel)
+> ![Customer Registration Page](Customer Registration Page.jpeg)
 
 ---
 
