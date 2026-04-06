@@ -97,7 +97,7 @@ SMSV-Restaurant/
 
 ## 📷 Screenshots
 
-> ![Customer Registration Page](Customer Registration Page.jpeg)
+![Customer Registration Page](Customer Registration Page.jpeg)
 
 ---
 
