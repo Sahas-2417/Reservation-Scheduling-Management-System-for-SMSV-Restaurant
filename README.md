@@ -18,8 +18,7 @@ Online reservation systems improve efficiency, reduce manual effort, and enhance
 
 ## 🚀 Features
 
-### 👤 User Side
-- View available tables  
+### 👤 User Side  
 - Select date and time  
 - Book table online  
 - Instant booking confirmation  
