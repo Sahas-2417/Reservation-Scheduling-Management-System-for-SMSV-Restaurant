@@ -96,7 +96,7 @@ SMSV-Restaurant/
 ---
 
 ## 📷 Screenshots
-
+### Key Factors Affecting Academic Performance
 ![CRP](CRP.png)
 
 ---
