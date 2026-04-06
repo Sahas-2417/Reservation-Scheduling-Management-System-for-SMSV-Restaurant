@@ -105,8 +105,8 @@ SMSV-Restaurant/
 ### Booking Queue (BQ)
 ![BQ](BQ.png)
 
-### Table Allocation Results ()
-![BRP](BRP.png)
+### Table Allocation Results (TAR)
+![TAR](TAR.png)
 
 ---
 
