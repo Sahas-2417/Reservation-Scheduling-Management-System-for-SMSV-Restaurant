@@ -96,9 +96,11 @@ SMSV-Restaurant/
 ---
 
 ## 📷 Screenshots
-### Key Factors Affecting Academic Performance
+### Customer Registration Page (CRP)
 ![CRP](CRP.png)
 
+### Booking Received Page (BRP)
+![BRP](BRP.png)
 ---
 
 ## 📄 Pages
