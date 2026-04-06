@@ -12,7 +12,7 @@ The Reservation & Scheduling Management System is designed to simplify restauran
 
 This system provides a digital solution where users can check availability and reserve tables easily through a website, while admins can manage bookings efficiently.
 
-Online reservation systems improve efficiency, reduce manual effort, and enhance customer satisfaction by providing real-time booking capabilities. :contentReference[oaicite:0]{index=0}
+Online reservation systems improve efficiency, reduce manual effort, and enhance customer satisfaction by providing real-time booking capabilities. 
 
 ---
 
