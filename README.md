@@ -1,64 +1,56 @@
-# 🍛 SMSV Restaurant – Smart Priority Based Booking System
+# 🍽️ Reservation & Scheduling Management System for SMSV Restaurant
 
-A **full-stack restaurant reservation platform** that demonstrates **Operating System concepts** and **Algorithm Design (AOA)** in a real-world application. Built as a college capstone project.
+A web-based restaurant reservation system that allows users to book tables online and helps restaurant staff efficiently manage reservations and schedules.
 
-![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
-![Flask](https://img.shields.io/badge/Flask-3.0-green?logo=flask)
-![SQLite](https://img.shields.io/badge/SQLite-Database-orange?logo=sqlite)
-![License](https://img.shields.io/badge/License-MIT-yellow)
+🔗 Live Website: https://smsv-restaurant-3.onrender.com/
 
 ---
 
-## 🌟 Features
+## 📌 Project Overview
 
-- **Customer Interface** – Book tables with VIP, Pre-Booking, or On-Spot reservations
-- **Admin Dashboard** – Manage bookings, tables, and view statistics
-- **Priority Scheduling (OS Concept)** – VIP gets highest priority, On-Spot gets lowest
-- **Greedy Table Allocation (AOA)** – Assigns the smallest available table that fits the group
-- **Backtracking Cancellation (AOA)** – Automatically finds replacement bookings on cancellation
-- **Queue Management** – Priority-sorted booking queue
-- **Indian Restaurant UI** – Premium dark theme with gold/saffron accents
+The Reservation & Scheduling Management System is designed to simplify restaurant table booking and scheduling. Traditional methods like phone calls or manual registers often lead to errors, double bookings, and poor customer experience.
+
+This system provides a digital solution where users can check availability and reserve tables easily through a website, while admins can manage bookings efficiently.
+
+Online reservation systems improve efficiency, reduce manual effort, and enhance customer satisfaction by providing real-time booking capabilities. :contentReference[oaicite:0]{index=0}
 
 ---
 
-## 🔬 Algorithms Implemented
+## 🚀 Features
 
-### 1. Priority Scheduling (OS Concept)
-| Booking Type | Priority Level | Time Limit |
-|---|---|---|
-| VIP | P1 (Highest) | Unlimited |
-| Pre-Booking | P2 (Medium) | 2 Hours |
-| On-Spot | P3 (Lowest) | 1 Hour |
+### 👤 User Side
+- View available tables  
+- Select date and time  
+- Book table online  
+- Instant booking confirmation  
 
-### 2. Greedy Algorithm – Table Allocation
-- Sorts waiting bookings by priority
-- For each booking, assigns the **smallest available table** that fits the group
-- Minimizes resource waste (greedy choice property)
-
-### 3. Backtracking Algorithm – Cancellation Replacement
-- When a booking is cancelled, recursively searches the waiting queue
-- Checks constraints: table capacity, date match, time compatibility
-- Assigns the freed table to the first valid replacement
-- Notifies the upgraded customer
+### 🔐 Admin Side
+- Manage reservations  
+- View booking details  
+- Avoid overlapping bookings  
+- Efficient table scheduling  
 
 ---
 
 ## 🛠️ Tech Stack
 
-| Layer | Technology |
-|---|---|
-| Frontend | HTML, CSS, JavaScript |
-| Backend | Python Flask |
-| Database | SQLite |
-| Fonts | Google Fonts (Playfair Display, Inter) |
-| Icons | Font Awesome 6 |
+- **Frontend:** HTML, CSS, JavaScript  
+- **Backend:** Flask (Python)  
+- **Database:** SQLite  
+- **Deployment:** Render  
 
 ---
 
-## 🚀 Getting Started
+## 📊 System Workflow
 
-### Prerequisites
-- Python 3.x installed
+1. User visits website  
+2. Checks table availability  
+3. Selects preferred time slot  
+4. Enters booking details  
+5. Reservation stored in database  
+6. Confirmation displayed  
+
+---
 
 ### Installation
 
@@ -76,11 +68,6 @@ python app.py
 # 4. Open in browser
 # http://127.0.0.1:5000
 ```
-
-### Admin Login
-- **Username:** `admin`
-- **Password:** `admin123`
-
 ---
 
 ## 📁 Project Structure
@@ -108,19 +95,11 @@ SMSV-Restaurant/
     ├── css/style.css       # Premium Indian theme CSS
     └── images/             # Logo, hero, gallery images
 ```
-
 ---
 
-## 📸 Screenshots
+## 📷 Screenshots
 
-### Homepage
-The landing page features a hero banner, Indian cuisine gallery, and reservation options.
-
-### Booking Form
-Customers select their booking type (VIP, Pre-Booking, On-Spot), date, and time.
-
-### Admin Dashboard
-Real-time statistics, booking management, and table administration.
+> Add your project screenshots here (Home Page, Booking Page, Admin Panel)
 
 ---
 
@@ -139,12 +118,17 @@ Real-time statistics, booking management, and table administration.
 
 ---
 
-## 👥 Team
+## ⚙️ Installation & Setup
 
-**SMSV Restaurant** – College Capstone Project
+```bash
+# Clone the repository
+git clone https://github.com/your-username/your-repo-name.git
 
----
+# Navigate to project folder
+cd your-repo-name
 
-## 📜 License
+# Install dependencies
+pip install -r requirements.txt
 
-This project is for educational purposes as part of a college capstone demonstration.
+# Run the app
+python app.py
