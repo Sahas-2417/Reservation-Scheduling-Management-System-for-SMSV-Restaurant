@@ -1,4 +1,4 @@
-# Reservation & Scheduling Management System for SMSV Restaurant 🍽️
+ # Reservation and Scheduling Management System for SMSV Restaurant 🍽️
 
 A web-based restaurant reservation system that allows users to book tables online and helps restaurant staff efficiently manage reservations and schedules.
 
