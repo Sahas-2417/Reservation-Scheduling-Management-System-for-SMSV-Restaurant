@@ -115,9 +115,3 @@ git clone https://github.com/Sahas-2417/Reservation_Scheduling_Management_System
 cd Reservation_Scheduling_Management_System_for_SMSV_Restaurant
 pip install -r requirements.txt
 python app.py
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Run the app
-python app.py
