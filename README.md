@@ -1,42 +1,36 @@
- # Reservation and Scheduling Management System for SMSV Restaurant 🍽️
+# 🍽️ Reservation & Scheduling Management System for SMSV Restaurant
 
-A web-based restaurant reservation system that allows users to book tables online and helps restaurant staff efficiently manage reservations and schedules.
+A web-based restaurant reservation system built using Flask and SQLite that enables real-time table booking, admin-side reservation management, and intelligent table allocation.
 
-🔗 Live Website: https://smsv-restaurant-3.onrender.com/
-
----
-
-## 📌 Project Overview
-
-The Reservation & Scheduling Management System is designed to simplify restaurant table booking and scheduling. Traditional methods like phone calls or manual registers often lead to errors, double bookings, and poor customer experience.
-
-This system provides a digital solution where users can check availability and reserve tables easily through a website, while admins can manage bookings efficiently.
-
-Online reservation systems improve efficiency, reduce manual effort, and enhance customer satisfaction by providing real-time booking capabilities. 
+🚀 **Live Demo:**  
+https://smsv-restaurant-3.onrender.com/
 
 ---
 
-## 🚀 Features
+## 🔥 Key Features
 
-### 👤 User Side  
-- Select date and time  
-- Book table online  
-- Instant booking confirmation  
-
-### 🔐 Admin Side
-- Manage reservations  
-- View booking details  
-- Avoid overlapping bookings  
-- Efficient table scheduling  
+- Real-time table booking system  
+- Admin dashboard for managing reservations  
+- Prevention of double bookings  
+- Efficient scheduling of tables  
+- User-friendly interface  
 
 ---
 
-## 🛠️ Tech Stack
+## 🧠 Algorithms Used
 
-- **Frontend:** HTML, CSS, JavaScript  
-- **Backend:** Flask (Python)  
-- **Database:** SQLite  
-- **Deployment:** Render  
+- **Priority Scheduling:** Handles booking requests based on priority  
+- **Greedy Allocation:** Assigns best-fit available table quickly  
+- **Backtracking:** Reassigns tables efficiently after cancellations  
+
+---
+
+## 🛠 Tech Stack
+
+- Frontend: HTML, CSS, JavaScript  
+- Backend: Flask (Python)  
+- Database: SQLite  
+- Deployment: Render  
 
 ---
 
@@ -49,6 +43,11 @@ Online reservation systems improve efficiency, reduce manual effort, and enhance
 5. Confirmation displayed  
 
 ---
+## 📈 Project Impact
+
+- Reduced chances of manual booking errors  
+- Eliminated double booking issues  
+- Improved table utilization using algorithm-based allocation  
 
 ### Installation
 
