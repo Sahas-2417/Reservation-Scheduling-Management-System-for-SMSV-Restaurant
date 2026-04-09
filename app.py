@@ -25,7 +25,7 @@ from services import greedy_allocate_tables, cancel_and_replace, get_priority_qu
 import os
 
 app = Flask(__name__)
-app.secret_key = 'smsv_restaurant_secret_key_2026'
+app.secret_key = os.environ.get('smsv_restaurant_secret_key_2026', "fallback-secret")
 
 # Initialize database on startup (needed for Render/gunicorn)
 init_db()
