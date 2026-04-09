@@ -1,4 +1,4 @@
-# 🍽️ Reservation & Scheduling Management System for SMSV Restaurant
+# Reservation and Scheduling Management System for SMSV Restaurant 🍽️
 
 A web-based restaurant reservation system built using Flask and SQLite that enables real-time table booking, admin-side reservation management, and intelligent table allocation.
 
